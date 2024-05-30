@@ -1,0 +1,279 @@
+body{
+    margin: 300;
+    padding: 20px;
+    background-color: rgba(219, 197, 229, 0.823);
+}
+header{
+    background-image: url(/cielo.jpg);
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    margin-top: 60px;
+}
+
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: 85px;
+    color:white;
+    display: flex;
+    background-color: rgb(23, 4, 41);
+    padding: 2%;
+    justify-content: center;
+}
+.items{
+    scroll-margin-top: 15ex;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#nosotros a{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-img{
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a{
+    font-weight:600 ;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+#inicio{
+    text-align: center;
+}
+
+#inicio h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+}
+
+#inicio img{
+    width: 60%; 
+    transition: transform 0.5s ease;
+}
+
+#inicio img:hover{
+    transform: scale(1.10);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#peliculas a{
+    color: black;
+    text-align: center;
+}
+.peliculas{
+    text-align: center;
+    background-color: wheat;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+}
+.peli-img{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.peli1{
+    background-image:url('./pizza\ birra\ y\ faso.jpg');
+}
+.peli2{
+    background-image:url('./scarface.jpg');
+}
+.peli3{
+    background-image:url('./300.jpg');
+}
+#mas {
+    align-self: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #380338;
+    color: aliceblue;
+    font-size: 1.5em; 
+    padding: 15px 30px; 
+    border: none; 
+    cursor: pointer; 
+    text-decoration: none; 
+    margin-left: 40%;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+
+#comentarios{
+    align-items: center;
+
+}
+form{
+    align-items: center;
+    padding: 50px 55px ;
+    box-shadow: 0 0 20px rgb(23, 4, 41);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    margin-left: 30%;
+
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#comentarios h4{
+    color: rgb(29, 5, 50);
+    font-size: 35px;
+}
+ label{
+    color: rgb(50, 11, 86);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+ }
+
+ input,textarea{
+    padding: 17px 25px;
+    border-radius:25px ;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    color: rgb(173, 152, 193);
+    outline: none;
+ }
+
+ .form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+
+.boton{
+    font-size: 16px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 25px;
+    background-color: blueviolet;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: rgb(109, 80, 136);
+}
+.socials{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px;
+    padding: 20px; 
+    font-size: 50px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+#fot{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position:static;
+    width: 3800px;
+}
+
+#maspelis{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.pelicula{
+    text-align: center;
+    background-color: wheat;
+    height: 400px;
+    margin: 20px;
+    
+
+}
+#maspelis a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    color: black;
+    
+}
+.peli4{
+    background-image:url('./club\ de\ la\ pelea.jpg');
+}
+.peli5{
+    background-image:url('./inception.jpg');
+}
+.peli6{
+    background-image:url('./interestelar.jpg');
+}
+.peli7{
+    background-image:url('./mente\ indomable.jpg');
+}
+.peli8{
+    background-image:url('./parasite.jpg');
+}
+.peli9{
+    background-image:url('./spiderman.jpg');
+}
+.peli10{
+    background-image:url('./supercool.jpg');
+}
+.peli11{
+    background-image:url('./truman.jpg');
+}
+.peli12{
+    background-image:url('./whiplash.jpg');
+}
